@@ -8,9 +8,13 @@ def add(a, b):
 def subtract(a, b):
 	return a - b
 
+def exponent(a, b):
+	return a ^ b
+
 ops = {
 	'+': operator.add,
 	'-': operator.sub,
+	'^': operator.pow,
 }
 
 def calculate(string):
